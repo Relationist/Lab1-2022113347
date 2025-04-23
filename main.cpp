@@ -11,10 +11,10 @@
 #include <queue>
 #include <ctime>
 using namespace std;
-#define MODE 1
-  
+#define MODE 2
+
 string cleanText(const string& text);
-//修改1 
+//something changed there
 class Graph {
 public:
     unordered_map<string, unordered_map<string, int>> adj;
@@ -26,18 +26,6 @@ public:
             adj[to] = unordered_map<string, int>();
         }
     }
-
-
-    //void display() const {
-    //    cout << "\n==== Graph ====\n";
-    //    for (const auto& pair : adj) {
-    //        const string& from = pair.first;
-    //        for (const auto& to_pair : pair.second) {
-    //            cout << from << " -> " << to_pair.first << " (" << to_pair.second << ")\n";
-    //        }
-    //    }
-    //    cout << "================\n";
-    //}
 
     void display() const {
         // 创建一个字符串流来构建 Graphviz DOT 格式
