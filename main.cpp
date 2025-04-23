@@ -11,7 +11,10 @@
 #include <queue>
 #include <ctime>
 using namespace std;
+#define MODE 1
+  
 string cleanText(const string& text);
+//ÐÞ¸Ä1 
 class Graph {
 public:
     unordered_map<string, unordered_map<string, int>> adj;
