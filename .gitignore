@@ -1,7 +1,7 @@
-# 忽略 VS 的自动生成文件夹
-.vs/
-*.user
-*.suo
-*.opendb
-*.VC.db
-*.VC.opendb
+# 忽略 VS 编译目录
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
