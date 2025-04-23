@@ -12,7 +12,8 @@
 #include <ctime>
 using namespace std;
 #define MODE 2
-
+#define debug
+//sth changed
 string cleanText(const string& text);
 //something changed there
 class Graph {

@@ -1,0 +1,7 @@
+# 忽略 VS 的自动生成文件夹
+.vs/
+*.user
+*.suo
+*.opendb
+*.VC.db
+*.VC.opendb
